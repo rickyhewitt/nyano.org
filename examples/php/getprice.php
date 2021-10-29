@@ -5,17 +5,9 @@
     Uses coingecko API
 */
 
-require 'vendor/autoload.php';
-
-use Codenixsv\CoinGeckoApi\CoinGeckoClient;
-
-// Initialize API
-$client = new CoinGeckoClient();
-$data = $client->ping();
-
 // Get nano price
-$nano_price = $client->simple()->getPrice('nano', 'usd');
-$nano_price_value = $nano_price['nano']['usd'];
+$nano_price = json_decode(file_get_contents('https://api.coingecko.com/api/v3/simple/price?ids=nano&vs_currencies=usd'));
+$nano_price_value = $nano_price->nano->usd;
 
 // Calculate Nyano price
 $nyano_price = bcdiv($nano_price_value, '1000000000', 10);
