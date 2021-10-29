@@ -18,7 +18,7 @@ $nano_price = $client->simple()->getPrice('nano', 'usd');
 $nano_price_value = $nano_price['nano']['usd'];
 
 // Calculate Nyano price
-$nyano_price = bcdiv($nano_price_value, '100000000000', 13);
+$nyano_price = bcdiv($nano_price_value, '1000000000', 10);
 $nyano_price_value = number_format($nyano_price, 0, '', '');
 
 // Display output
