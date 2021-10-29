@@ -1,0 +1,5 @@
+{
+    "require": {
+        "codenix-sv/coingecko-api": "^1.0"
+    }
+}
