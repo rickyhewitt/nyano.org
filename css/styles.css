@@ -1,0 +1,34 @@
+html, body {
+    margin: 0; padding: 0;
+}
+
+#holding {
+    margin: 0 auto;
+    width: 480px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+}
+
+.links { margin-top: 16px; }
+
+.links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 70%;
+    color: #676686;
+    padding-right: 16px;
+}
+
+.links a:last-child {
+    padding-right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    #holding {
+        margin: 0 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 28px;
+    }
+  }
