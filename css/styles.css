@@ -1,34 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 html, body {
     margin: 0; padding: 0;
 }
 
 #holding {
     margin: 0 auto;
+    padding-top: 64px;
     width: 480px;
     font-size: 16px;
     color: #000;
     text-align: center;
 }
 
-.links { margin-top: 16px; }
+.links { margin-top: 16px; font-family: 'Nunito', sans-serif; }
 
 .links a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 70%;
+    font-size: 80%;
     color: #676686;
-    padding-right: 16px;
+    margin-bottom: 32px;
+    /* padding-right: 16px; */
 }
+
+.links a:hover { color: #000; }
 
 .links a:last-child {
     padding-right: 0;
 }
+
+div.wallets {
+    /* text-align: left; */
+    margin-bottom: 32px;
+}
+
+div.wallets h1 {
+    color: #777;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.wallets .btn{
+    display: inline-block;
+    text-decoration: none;
+    background: #87befd;
+    color: #FFF;
+    width: 120px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 5%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .4s;
+    margin-right: 16px;
+    font-family: 'Nunito', sans-serif;
+  }
+  div.wallets .btn:last-child {
+      margin-right: 0;
+  }
+  
+  div.wallets .btn:hover{
+      background: #668ad8;
+  }
 
 @media only screen and (max-width: 600px) {
     #holding {
         margin: 0 0;
         width: 100%;
         text-align: center;
-        margin-top: 28px;
+        padding-top: 32px;
     }
+
+    div.wallets .btn{
+        /* display: block;
+        margin: 0 auto;
+        margin-bottom: 16px; */
+        width: 80px;
+        height: 44px;
+        line-height: 44px;
+        font-size: 90%;
+      }
+
+      div.wallets .btn:last-child {
+          margin: 0 auto;
+      }
   }
