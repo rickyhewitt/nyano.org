@@ -5,12 +5,8 @@ This repository is mainly for:
 
 # List of Nyano projects
 ## Official sites
-* https://nyano.xyz (official site)
-* https://nyanoscan.xyz (official block explorer)
-
-## Unofficial/reserved sites
-* https://nyano.org (optional/unofficial site)
-* https://nyanoscan.org (optional block explorer)
+* https://nyano.org (official site)
+* https://nyanoscan.org (official block explorer)
 
 ## Wallets
 * https://github.com/JeanOUINA/Nyault (Nyault)
@@ -24,4 +20,7 @@ This repository is mainly for:
 
 ## Communication
 * https://discord.gg/VRGFGWjG (Discord)
+
+## Other
+* https://cdn.discordapp.com/attachments/903341738054258751/903987464471994418/nyano_brand_guidelines.pdf (Nyano Brand Guidelines)
 
