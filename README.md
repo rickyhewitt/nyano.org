@@ -21,3 +21,6 @@ This repository is mainly for:
 ## Communication
 * https://discord.gg/VRGFGWjG (Discord)
 
+## Other
+* https://cdn.discordapp.com/attachments/903341738054258751/903987464471994418/nyano_brand_guidelines.pdf (Nyano Brand Guidelines)
+
