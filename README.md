@@ -13,7 +13,8 @@ This repository is mainly for:
 * https://nyanoscan.org (optional block explorer)
 
 ## Wallets
-* https://github.com/MajorChump/nyano-natrium-wallet (Nyano wallet)
+* https://github.com/JeanOUINA/Nyault (Nyault)
+* https://github.com/MajorChump/nyano-natrium-wallet (Nyano-Natrium)
 
 ## Faucets
 * https://freenyanofaucet.com/ (Nyano faucet)
