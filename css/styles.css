@@ -5,6 +5,8 @@ html, body {
     margin: 0; padding: 0;
 }
 
+.nyano {  font-family: 'Ubuntu', sans-serif; }
+
 #holding {
     margin: 0 auto;
     padding-top: 64px;
