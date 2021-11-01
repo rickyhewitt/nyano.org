@@ -6,7 +6,7 @@ This repository is mainly for:
 # List of Nyano projects
 ## Official sites
 * https://nyano.org (official site)
-* https://nyanoscan.org (official block explorer)
+* https://nyanoscan.org (official block explorer, https://github.com/jelofsson/nyanoscan)
 
 ## Wallets
 * https://github.com/JeanOUINA/Nyault (Nyault)
