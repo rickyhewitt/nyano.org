@@ -51,6 +51,7 @@ h2.nyano {
 div.wallets {
     /* text-align: left; */
     margin-bottom: 32px;
+    margin-top: 32px;
 }
 
 div.wallets h1 {
@@ -103,4 +104,4 @@ div.wallets .btn{
       div.wallets .btn:last-child {
           margin: 0 auto;
       }
-  }
+}
