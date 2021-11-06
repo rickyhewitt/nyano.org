@@ -83,6 +83,24 @@ div.wallets .btn{
       background: #668ad8;
   }
 
+div.copyright { 
+    display: none; 
+    position: absolute;
+    color: #999;
+    font-size: 60%;
+    font-family: 'Roboto', sans-serif;
+    /* margin-right: 16px; */
+    text-transform: uppercase;
+    bottom: 8px; right: 8px;
+}
+
+    div.copyright a {
+        color: #999;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        display: block;
+    }
+
 @media only screen and (max-width: 600px) {
     #holding {
         margin: 0 0;
@@ -104,4 +122,11 @@ div.wallets .btn{
       div.wallets .btn:last-child {
           margin: 0 auto;
       }
+}
+
+@media only screen and (min-width: 900px) {
+    div.copyright {
+        display: block;
+        text-align: right;
+    }
 }
