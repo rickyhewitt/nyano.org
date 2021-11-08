@@ -1,7 +1,6 @@
-This repository is mainly for:
-* Mirroring the task list from discord to github
-* Providing an initial list of Nyano related services & projects
-* Repo for nyano.org
+This file includes a list of NYANO related projects.
+
+If you are interested in including a link on nyano.org, please list it here first.
 
 # List of Nyano projects
 ## Official sites
@@ -21,7 +20,9 @@ This repository is mainly for:
 ## Communication
 * https://discord.gg/VRGFGWjG (Discord)
 
+## Games
+* https://apps.apple.com/us/app/nyano-meow/id1593204477?l=nb (Nyano Meow)
+
 ## Other
 * https://cdn.discordapp.com/attachments/903341738054258751/903987464471994418/nyano_brand_guidelines.pdf (Nyano Brand Guidelines)
-
 * https://nyanomarketcap.com (Nyano Price & Marketcap Tracker)
