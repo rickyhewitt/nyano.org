@@ -26,3 +26,10 @@ If you are interested in including a link on nyano.org, please list it here firs
 ## Other
 * https://cdn.discordapp.com/attachments/903341738054258751/903987464471994418/nyano_brand_guidelines.pdf (Nyano Brand Guidelines)
 * https://nyanomarketcap.com (Nyano Price & Marketcap Tracker)
+
+# nyano.org
+## dependencies
+* font-awesome
+
+## installation
+npm install

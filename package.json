@@ -1,0 +1,23 @@
+{
+  "name": "nyano.org",
+  "version": "1.0.0",
+  "description": "nyano.org",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickyhewitt/nyano.git"
+  },
+  "keywords": [],
+  "author": "Ricky Hewitt",
+  "license": "BSD3",
+  "bugs": {
+    "url": "https://github.com/rickyhewitt/nyano/issues"
+  },
+  "homepage": "https://github.com/rickyhewitt/nyano#readme"
+}
