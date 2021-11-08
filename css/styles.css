@@ -16,6 +16,7 @@ html, body {
 
 h2.nyano { 
     font-family: 'Ubuntu', sans-serif; 
+    font-display: auto;
     font-size: 120px; 
     color: #0E1032;
     font-weight: 500;
@@ -31,7 +32,9 @@ h2.nyano {
     text-align: center;
 }
 
-.links { margin-top: 16px; font-family: 'Nunito', sans-serif; }
+.links { 
+    margin-top: 32px; font-family: 'Nunito', sans-serif;
+ }
 
 .links a {
     text-transform: uppercase;
@@ -48,6 +51,31 @@ h2.nyano {
     padding-right: 0;
 }
 
+.social { 
+    margin-top: 16px;
+    font-size: 300%;
+}
+
+.social a {
+    color: #888;
+}
+
+    .social a:hover .fa-twitter {
+        color: #50abf1;
+    }
+    .social a:hover .fa-reddit {
+        color: #ff4019;
+    }
+    .social a:hover .fa-discord {
+        color: #8695d6;
+    }
+    .social a:hover .fa-telegram {
+        color: #2ba3d7;
+    }
+    .social a:hover .fa-facebook {
+        color: #3b589c;
+    }
+
 div.wallets {
     /* text-align: left; */
     margin-bottom: 32px;
@@ -57,6 +85,7 @@ div.wallets {
 div.wallets h1 {
     color: #777;
     font-family: 'Roboto', sans-serif;
+    font-display: auto;
 }
 
 div.wallets .btn{
@@ -74,6 +103,7 @@ div.wallets .btn{
     transition: .4s;
     margin-right: 16px;
     font-family: 'Nunito', sans-serif;
+    font-display: auto;
   }
   div.wallets .btn:last-child {
       margin-right: 0;
@@ -85,13 +115,14 @@ div.wallets .btn{
 
 div.copyright { 
     display: none; 
-    position: absolute;
     color: #999;
-    font-size: 60%;
+    font-size: 70%;
     font-family: 'Roboto', sans-serif;
-    /* margin-right: 16px; */
+    margin-right: 8px;
+    margin-bottom: 8px;
     text-transform: uppercase;
-    bottom: 8px; right: 8px;
+    /* position: absolute; */
+    /* bottom: 8px; right: 8px; */
 }
 
     div.copyright a {
